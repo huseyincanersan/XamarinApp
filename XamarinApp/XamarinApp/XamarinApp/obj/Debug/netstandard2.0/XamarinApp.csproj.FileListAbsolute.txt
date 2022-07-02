@@ -1,6 +1,5 @@
 C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\bin\Debug\netstandard2.0\XamarinApp.deps.json
 C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\bin\Debug\netstandard2.0\XamarinApp.dll
-C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\bin\Debug\netstandard2.0\ref\XamarinApp.dll
 C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\bin\Debug\netstandard2.0\XamarinApp.pdb
 C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\XamarinApp.csproj.AssemblyReference.cache
 C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\XamarinApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,5 @@ C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\obj\Debug\netstand
 C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\XamarinApp.pdb
 C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
 C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\Can\Desktop\xamarin\XamarinApp\XamarinApp\XamarinApp\obj\Debug\netstandard2.0\refint\XamarinApp.dll

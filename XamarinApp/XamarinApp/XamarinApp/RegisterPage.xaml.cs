@@ -16,5 +16,16 @@ namespace XamarinApp
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+            DisplayAlert("Tebrikler","Kayit Basarili","Ok");
+            Navigation.PushAsync(new HomePage());
+
+
+        }
+
+        
     }
 }

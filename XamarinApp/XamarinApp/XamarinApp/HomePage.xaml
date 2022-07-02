@@ -1,12 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinApp.HomePage">
+             x:Class="XamarinApp.HomePage"
+             Background="#112b47">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Home Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text="Admin" 
+                   TextColor="White"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="36"/>
+
+
+            <Button  Text="Poliçe Ekle"
+                     HorizontalOptions="CenterAndExpand"
+                     TextColor="White"
+                     BackgroundColor="Transparent"
+                     BorderColor="ForestGreen"
+                     BorderWidth="1.5"
+                     CornerRadius="50"
+                     Clicked="Button_Clicked"
+                     ></Button>
+
+
+
+
         </StackLayout>
+
+
     </ContentPage.Content>
 </ContentPage>

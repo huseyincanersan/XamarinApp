@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApp.Page1"
+             BackgroundColor="#112b47">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+
+            <Entry x:Name="txtUsername" Placeholder="Username" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtName" Placeholder="Name" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtSurname" Placeholder="Surname" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Button
+                VerticalOptions="Center"
+                Text="Confirm"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                BorderColor="ForestGreen"
+                BorderWidth="1.5"
+                CornerRadius="50"
+              
+                ></Button>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

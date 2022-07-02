@@ -20,9 +20,9 @@
                 CornerRadius="50"
                 Clicked="Button_Clicked"
                 ></Button>
-            
-            
-            
+
+           
+
             <Label HorizontalOptions="Center">
                 <Label.FormattedText>
                     <FormattedString>
