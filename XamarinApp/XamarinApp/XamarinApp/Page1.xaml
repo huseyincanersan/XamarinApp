@@ -7,10 +7,15 @@
         <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
 
 
-            <Entry x:Name="txtUsername" Placeholder="Username" TextColor="White" PlaceholderColor="Gray"></Entry>
-            <Entry x:Name="txtName" Placeholder="Name" TextColor="White" PlaceholderColor="Gray"></Entry>
-            <Entry x:Name="txtSurname" Placeholder="Surname" TextColor="White" PlaceholderColor="Gray"></Entry>
-            <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtMarka" Placeholder="Aracınızın Markası" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtModel" Placeholder="Aracınızın Modeli" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <DatePicker  MinimumDate="01/01/1975"
+            MaximumDate="12/31/2090"
+            Date="07/05/2022" VerticalOptions="CenterAndExpand" TextColor="Gray" /> 
+            <Entry x:Name="txtPlaka" Placeholder="Aracinizin Plakasi" TextColor="White" PlaceholderColor="Gray"></Entry>
+
+           
+
             <Button
                 VerticalOptions="Center"
                 Text="Confirm"
@@ -19,6 +24,7 @@
                 BorderColor="ForestGreen"
                 BorderWidth="1.5"
                 CornerRadius="50"
+                Clicked="Button_Clicked"
               
                 ></Button>
 

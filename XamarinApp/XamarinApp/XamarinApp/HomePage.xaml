@@ -6,12 +6,47 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Label Text="Admin" 
+            <Label Text="Kullanici Ismi" 
                    TextColor="White"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand"
                    FontAttributes="Bold"
                    FontSize="36"/>
+
+            <ListView x:Name="listPolice" ItemsSource="{Binding .}" 
+                      ItemTapped="Handle_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Text="{Binding Sigorta}"
+                                                   TextColor="White"
+                                                   Grid.Column="0"/>
+                                        <Label Text="{Binding Tur}"
+                                                   TextColor="White"
+                                                   Grid.Column="2"/>
+                                    </Grid>
+                                   
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
 
 
             <Button  Text="Poliçe Ekle"

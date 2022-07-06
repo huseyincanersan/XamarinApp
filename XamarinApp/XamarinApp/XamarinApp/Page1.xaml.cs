@@ -15,6 +15,13 @@ namespace XamarinApp
         public Page1()
         {
             InitializeComponent();
+
+
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Item Tapped", "Police Eklendi", "OK");
         }
     }
 }
